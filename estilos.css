@@ -1,0 +1,219 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+._logo-desktop{
+    color: white;
+    text-transform: uppercase;
+}
+.menu{
+    float: right;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    display: i;
+}
+
+._nav-link-button{
+    text-decoration: none;
+    color: white;
+}
+
+._nav-link-button:hover{
+    color: darkslategray;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: darkslategrey;
+    background-image: url(img/burger-g1c6bfa5ab_1280.png);
+    background-size: contain
+}
+
+main div h2{
+    color: black;
+}
+
+._contenedor-main{
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+}
+._banner-index{
+    color: #fff;
+    background-color: brown;
+    border: 5px solid white;
+    margin-top: 10%;
+    padding: 16px;
+}
+
+.productos p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+._title{
+    background-color: brown;
+    padding: 16px 0;
+}
+.sec{
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.productos a:hover{
+    color: #fff;
+}
+
+/*.burga1{
+    float: right;
+    color: black;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: antiquewhite;
+    margin: 20px;
+    margin-right: 100px;
+    
+}
+
+.burga2{
+    float: right;
+    color: black;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: antiquewhite;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+.burga3{
+    float: right;
+    color: black;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: antiquewhite;
+    margin: 20px;
+    margin-right: 100px;
+}
+
+.burga4{
+    float: right;
+    color: black;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: antiquewhite;
+    margin: 20px;
+}*/
+.burga{
+    color: black;
+    border: 5px solid black;
+    background-color: antiquewhite;
+    padding: 16px;
+}
+
+.cont{
+    background-color: gray;
+    padding: 10% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 24px;
+
+}
+
+.cont1{
+    background-image: url(img/house-stark-ge155161ab_1280.png);
+    background-size: cover;
+}
+
+.cont2{
+    background-image: url(img/swords-gc6ff606c8_1280.png);
+    background-size: cover;
+}
+
+.cont2 p{
+    width: 45%;
+    color: #fff;
+    background-color: brown;
+    border: 5px solid white;
+    margin-left: 30%;
+    margin-top: 80px;
+    padding: 20px;
+    float: left;
+}
+
+.cont3{
+    background-image: url(img/burger-g1c6bfa5ab_1280.png);
+    background-size: contain;
+}
+
+.cont3 p{
+    width: 45%;
+    color: #fff;
+    background-color: brown;
+    border: 5px solid white;
+    margin-left: 30%;
+    margin-top: 80px;
+    padding: 20px;
+    float: left;
+}
+
+footer{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    color: #fff;
+}
+
+footer p{
+    font-size: 16px;
+    padding: 15px;
+}
+
+.redes{
+    letter-spacing: 20px;
+}
+
+.redes i:hover{
+    color: #fff;
+}
+
+.subir{
+    color: #fff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: brown;
+    padding: 15px;
+    font-size: 15px;
+    border: 3px solid white;
+}
+
+.subir:hover{
+    color: black;
+}
